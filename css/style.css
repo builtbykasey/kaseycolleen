@@ -5,20 +5,17 @@ html, body {
 /* Navbar */
 .navbar {
   margin-top: 0;
-  padding: .8rem 2rem;
-}
-
-.name {
-  color: #fff;
-  font-size: 2rem;
-  letter-spacing: 1.5px;
+  padding: 1rem 3rem;
 }
 
 .navbar-brand {
   padding-left: 0;
   padding-bottom: 0;
-  padding-top: .8rem;
+  /*padding-top: .8rem;*/
   height: auto;
+  color: #fff;
+  font-size: 2.75rem;
+  letter-spacing: 3px;
 }
 
 .navbar-right {
@@ -42,52 +39,45 @@ html, body {
 }
 
 .navbar-default {
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255,255,255,0.95);
   border: none;
   margin: 0;
   z-index: 9999;
 }
 
-.navbar-default .navbar-brand .transparent-logo {
-  display: none;
+.navbar-default .navbar-brand {
+  color: #B5173C;
+  font-size: 2rem;
+  padding: 0 0 .5rem 0;
+  margin: 0;
 }
 
-.navbar-brand .default-logo {
-  color: #333;
-  margin-bottom: 0;
-  height: 1.5rem;
-}
-
-nav a {
-  font-size: .9rem;
+.navbar-default .navbar-brand:hover {
+  color: #B5173C;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #333;
-  letter-spacing: 1px;
-  padding: .8rem 0;
-  margin-right: 2rem;
+  color: #B5173C;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  padding: .25rem 0 0 0;
+  margin-left: 2rem;
+
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  border-bottom: 2px solid #F44A66;
+  color: #B5173C;
 }
 
 /* navbar-transparent */
 .navbar-transparent {
   background-color: transparent;
   border: none;
+  padding-top: 1.5rem;
 }
 
-.navbar-transparent .navbar-brand .transparent-logo {
+.navbar-transparent .navbar-brand:hover {
   color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  margin-left: 0;
-}
-
-.navbar-brand .transparent-logo {
-  height: 3rem;
 }
 
 .navbar-transparent .fa-bars {
@@ -95,23 +85,19 @@ nav a {
     font-size: 1.25rem;
 }
 
-.navbar-transparent .navbar-brand .default-logo {
-  display: none;
-}
-
 .navbar-transparent .navbar-nav > li > a {
   color: #fff;
-  font-size: 1.25rem;
-  letter-spacing: 1.5px;
-  margin-right: 2rem;
+  font-size: 1.15rem;
+  letter-spacing: 3px;
+  margin-left: 2rem;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
 .navbar-transparent .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #05a3c6;
+    color: #fff;
     background: transparent;
 }
 
@@ -121,65 +107,57 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 100vh;
     padding: 0;
     text-align: center;
-    background: #e11948;
+    background: #B5173C;
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
     opacity: 1;
 }
 
 .hero h1 {
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-weight: bold;
-  padding-top: 10rem;
+  padding-top: 4rem;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  letter-spacing: 4px;
+  letter-spacing: 6px;
 }
 
 .hero p {
-  color: #F44A66;
+  color: #fff;
   font-size: 1.65rem;
-  font-style: italic;
-  font-weight: 600;
   letter-spacing: 2px;
+  width: 70%;
+  margin: 1rem auto;
 }
 
-/* Setup and Headings */
+/* Headings */
 
 .section-heading {
   margin-top: 0px;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   font-size: 3rem;
   line-height: 36px;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 /* Dividers */
-.divider-section {
-  position: relative;
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, fixed;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-}
 
-.divider-section.first-divider {
+/*.divider-section.first-divider {
   margin-top: 0;
   padding: 3rem 0;
-  height: 14rem;
-  background-image: url('../assets/coding3.jpeg');
+  height: 20rem;
+  background-image: url('../assets/coding3.jpg');
   background-position: top;
   background-size: cover;
   background-repeat: repeat, no-repeat;
   background-attachment: fixed;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-}
+}*/
 
 /* Process */
 .process-section {
@@ -193,7 +171,7 @@ nav a {
 }
 
 .process-row {
-  margin-bottom: 3.125rem;
+  margin: 8rem 0;
   padding: 2rem 1rem;
   background-color: #fff;
   display: flex;
@@ -201,31 +179,52 @@ nav a {
 }
 
 .process-heading {
-  margin-top: 0px;
-  margin-bottom: 1rem;
-  color: #000;
-  font-size: 30px;
-  line-height: 40px;
-  letter-spacing: 1px;
+
 }
 
-.process-span {
-  color: rgba(1, 95, 163, .9);
+.process-content-box {
+  width: 90%;
+}
+
+.project-title {
+  display: block;
+  color: #B5173C;
+  font-size: 2.5rem;
+  line-height: 40px;
+  letter-spacing: 3px;
+  margin-top: 0px;
+  margin-bottom: .5rem;
 }
 
 .process-paragraph {
   font-size: 1.1rem;
   line-height: 33px;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.tech-title {
+  display: block;
+  color: #B5173C;
+  font-size: 1.35rem;
+  letter-spacing: 3px;
+  margin-top: .75rem;
+  /*margin-bottom: .5rem;*/
+}
+
+.tech-used {
+  font-size: 1.1rem;
+  line-height: 33px;
+  letter-spacing: .5px;
   font-family: 'Lato', sans-serif;
 }
 
 /* About */
 .about-section {
-  background-color: #05a3c6;
+  background-color: #0486A3;
   padding-top: 6rem;
   padding-bottom: 6rem;
-  color: #f1f1f1;
+  color: #fff;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
 }
 
@@ -240,17 +239,17 @@ nav a {
     text-align: left;
     width: 80%;
     margin: 0 auto;
-    font-size: 1.55rem;
-    font-weight: 500;
-    font-family: 'Lato', sans-serif;
-    /*letter-spacing: 1px;*/
+    font-size: 1.5rem;
+    /*font-weight: lighter;*/
+    font-family: 'Georgia', serif;
+    letter-spacing: .58px;
     line-height: 42px;
 }
 
 .about-paragraph {
   margin-bottom: 3rem;
   text-align: justify;
-  font-weight: bold;
+  /*font-weight: normal;*/
 }
 
 /* Contact */
@@ -283,7 +282,7 @@ nav a {
   padding-bottom: 1rem;
   padding-right: .75rem;
   font-size: 1.5rem;
-  color: #05a3c6;
+  color: #0486A3;
 }
 
 #contact a {
@@ -342,7 +341,7 @@ nav a {
 }
 
 .footer-nav ul li a:hover {
-  color: #F44A66;
+  color: #B5173C;
 }
 
 #social {
