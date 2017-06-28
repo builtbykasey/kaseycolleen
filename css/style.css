@@ -339,10 +339,7 @@ html, body {
 
 .blog-post {
   margin-top: 6rem;
-}
 
-.blog-element img {
-  max-height: 260px;
 }
 
 .blog-content {
@@ -364,7 +361,7 @@ html, body {
 }
 
 .blog-content a:hover {
-  color: #e11948;
+  color: #000;
 }
 
 .blog-content p, .blog-content blockquote {
