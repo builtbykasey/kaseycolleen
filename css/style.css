@@ -54,7 +54,7 @@ html, body {
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #059DBF;
+  color: #000;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -67,7 +67,7 @@ html, body {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #059DBF;
+  color: #000;
 }
 
 /* navbar-transparent */
@@ -78,7 +78,7 @@ html, body {
 }
 
 .navbar-transparent .navbar-brand:hover {
-  color: #fff;
+  color: #000;
 }
 
 .navbar-transparent .fa-bars {
@@ -353,7 +353,7 @@ html, body {
 }
 
 .blog-post {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .blog-element img {
@@ -365,7 +365,7 @@ html, body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 80%;
+  width: 65%;
 }
 
 .post-title {
@@ -375,11 +375,11 @@ html, body {
 }
 
 .post-title a {
-  color: #e11948;
+  color: #000;
 }
 
 .blog-content a:hover {
-  color: #000;
+  color: #e11948;
 }
 
 .blog-content p, .blog-content blockquote {
@@ -387,32 +387,20 @@ html, body {
   font-size: 1.35rem;
   font-family: 'PT Serif', serif;
   margin-bottom: 0;
-  padding: 0 2rem;
-}
-
-.read-more {
-  font-family: 'PT Serif', serif;
-  margin-top: 1rem;
-}
-
-.read-more a {
-  color: #000;
-  font-size: 1rem;
-  text-decoration: none;
-  font-style: italic;
+  margin: 0 3rem;
 }
 
 /* Resume */
 .resume-section {
   background-color: #059DBF;
-  padding: 4rem 0;
+  padding: 2rem 0;
   color: #fff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, .2);
 }
 
 .resume-container {
   margin: 0 auto;
-  padding: 3rem 0 4rem 0;
+  padding: 1rem 0 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
