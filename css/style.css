@@ -148,24 +148,10 @@ html, body {
   text-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
 
-/* Dividers */
-
-.divider-section.first-divider {
-  margin-top: 0;
-  padding: 3rem 0;
-  height: 6rem;
-  background-image: url('../assets/laptop3.jpeg');
-  background-position: top;
-  background-size: cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: fixed;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
-}
-
 /* Projects */
 .projects-section {
   width: 100%;
-  padding-top: 6rem;
+  padding-top: 10rem;
   padding-bottom: 6rem;
   padding-left: 0;
   padding-right: 0;
@@ -267,8 +253,7 @@ html, body {
 /* About */
 .about-section {
   background-color: #059DBF;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding: 10rem 0;
   color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
@@ -339,13 +324,13 @@ html, body {
 
 .blog-section {
   width: 100%;
-  padding: 6rem 0;
+  padding: 12rem 0 12rem 0;
   background-color: #fff;
   color: #000000;
 }
 
 .blog-wrapper {
-  margin-top: 6rem;
+  margin-top: 2rem;
 }
 
 .blog-row a {
@@ -353,7 +338,7 @@ html, body {
 }
 
 .blog-post {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .blog-element img {
@@ -365,17 +350,17 @@ html, body {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 65%;
+  width: 70%;
 }
 
 .post-title {
-  font-size: 2rem;
-  padding-bottom: 1rem;
-  letter-spacing: 2px;
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+  letter-spacing: 3px;
 }
 
 .post-title a {
-  color: #000;
+  color: #e11948;
 }
 
 .blog-content a:hover {
@@ -393,7 +378,7 @@ html, body {
 /* Resume */
 .resume-section {
   background-color: #059DBF;
-  padding: 2rem 0;
+  padding: 4rem 0;
   color: #fff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, .2);
 }
@@ -434,8 +419,7 @@ html, body {
   color: #000;
   width: 100%;
   margin: 0;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding: 10rem 0;
   background-color: #fff;
 }
 

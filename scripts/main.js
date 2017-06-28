@@ -50,11 +50,11 @@ $(function () {
   				// output += '<h4 class="date">' + $.format.date(item.pubDate, "dd<br>MMM") + "</h4>";
 
           //Image Find and Output
-  				var tagIndex = item.description.indexOf('<img'); // Find where the img tag starts
-  				var srcIndex = item.description.substring(tagIndex).indexOf('src=') + tagIndex; // Find where the src attribute starts
-  				var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'
-  				var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
-  				var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
+  				// var tagIndex = item.description.indexOf('<img'); // Find where the img tag starts
+  				// var srcIndex = item.description.substring(tagIndex).indexOf('src=') + tagIndex; // Find where the src attribute starts
+  				// var srcStart = srcIndex + 5; // Find where the actual image URL starts; 5 for the length of 'src="'
+  				// var srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
+  				// var src = item.description.substring(srcStart, srcEnd); // Extract just the URL
   				// output += '<div class="col-md-4"><div class="blog-element"><img class="img-responsive" src="' + src + '" width="360px" height="240px"></div></div>';
 
 
