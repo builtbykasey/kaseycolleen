@@ -228,17 +228,6 @@ html, body {
   background-color: #e11948;
 }
 
-.demo-button {
-  background-color: #000;
-  padding: .75rem 1.5rem;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .35);
-  color: #fff;
-}
-
-.demo-button:hover {
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .35);
-}
-
 .github-button {
   background-color: #000;
   padding: .75rem 1.5rem;
@@ -246,8 +235,9 @@ html, body {
   color: #fff;
 }
 
-.github-button:hover {
+.github-button:hover, .github-button:focus {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .35);
+  text-decoration: none;
 }
 
 /* About */
@@ -351,7 +341,7 @@ html, body {
 }
 
 .post-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 1.5rem;
   letter-spacing: 3px;
 }

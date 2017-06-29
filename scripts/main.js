@@ -37,7 +37,7 @@ $(function () {
 
 			$.each(response.items, function (k, item) {
 				var visibleSm;
-				if(k < 8){
+				if(k < 6){
 					visibleSm = '';
 				 } else {
 					 visibleSm = ' visible-sm';
@@ -69,7 +69,7 @@ $(function () {
   				output += '<p>' + trimmedString + '...</p>';
           // output += '<p class="read-more"><a href="'+ item.link + '" target="_blank">Read More</a></p>'
   				output += '</div></div></div>';
-  				return k < 8;
+  				return k < 6;
         }
 			});
 			$content.html(output);
