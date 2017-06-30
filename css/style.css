@@ -113,8 +113,7 @@ html, body {
     text-align: center;
     background: #e11948;
     box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
-    opacity: 1;
-}
+  }
 
 .hero h1 {
   color: #000;
@@ -152,7 +151,7 @@ html, body {
 .projects-section {
   width: 100%;
   padding-top: 10rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
   padding-left: 0;
   padding-right: 0;
   background-color: #fff;
@@ -243,9 +242,41 @@ html, body {
 /* About */
 .about-section {
   background-color: #059DBF;
-  padding: 10rem 0;
+  padding: 4rem 0 3rem 0;
   color: #fff;
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  position: relative;
+  z-index: 8;
+}
+
+.about-section:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(5deg);
+  transform-origin: 100% 0;
+  z-index: -1;
+  box-shadow: -3px -3px 3px rgba(0, 0, 0, .35);
+}
+
+.about-section:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-5deg);
+  transform-origin: 100%;
+  z-index: -2;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
 }
 
 .about-container {
@@ -314,7 +345,7 @@ html, body {
 
 .blog-section {
   width: 100%;
-  padding: 12rem 0 12rem 0;
+  padding: 12rem 0 14rem 0;
   background-color: #fff;
   color: #000000;
 }
@@ -368,6 +399,38 @@ html, body {
   padding: 4rem 0;
   color: #fff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+  position: relative;
+  z-index: 8;
+}
+
+.resume-section:before {
+  background: inherit;
+  top: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(3deg);
+  transform-origin: 100% 0;
+  z-index: -1;
+  box-shadow: -3px -3px 3px rgba(0, 0, 0, .35);
+}
+
+.resume-section:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-3deg);
+  transform-origin: 100%;
+  z-index: -2;
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .35);
 }
 
 .resume-container {
@@ -401,12 +464,18 @@ html, body {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .35);
 }
 
+.resume-button a:focus {
+  text-decoration: none;
+  background-color: #000;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .35);
+}
+
 /* Contact */
 .contact-section {
   color: #000;
   width: 100%;
   margin: 0;
-  padding: 10rem 0;
+  padding: 12rem 0 10rem 0;
   background-color: #fff;
 }
 
