@@ -664,18 +664,22 @@ html, body {
 
     .projects-wrapper {
       margin-bottom: 3rem;
+      padding: 0;
     }
 
     .projects-row {
       display: flex;
       flex-direction: column-reverse;;
-      margin: 2rem 0 4rem 0;
+      padding: 3rem 0 3rem 0;
+      margin: 0;
     }
 
     .projects-row.middle {
-      margin: 2rem 0 4rem 0;
+      padding: 3rem 0 3rem 0;
       flex-direction: column;
-      padding: 0;
+      width: 100%;
+      background-color: #f9f9f9;
+      margin: 0;
     }
 
     .projects-content-box {
@@ -711,6 +715,10 @@ html, body {
       margin-left: auto;
       margin-right: auto;
       max-width: 300px;
+    }
+
+    .project-buttons {
+      margin: 2rem 0 1rem 0;
     }
 
     .project-buttons a {
