@@ -783,13 +783,17 @@ html, body {
       padding: 7rem 0;
     }
 
+    .blog-wrapper {
+      margin-top: 0;
+    }
+
     .blog-row {
       width: 100%;
       margin: 0 auto;
     }
 
     .blog-post {
-      margin-top: 3rem;
+      margin-top: 4rem;
     }
 
     .post-title {
