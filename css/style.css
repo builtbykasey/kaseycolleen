@@ -404,7 +404,7 @@ html, body {
   top: 0;
   content: '';
   display: block;
-  height: 50%;
+  height: 20%;
   left: 0;
   position: absolute;
   right: 0;
@@ -419,7 +419,7 @@ html, body {
   bottom: 0;
   content: '';
   display: block;
-  height: 50%;
+  height: 20%;
   left: 0;
   position: absolute;
   right: 0;
@@ -608,7 +608,7 @@ html, body {
     }
 
     .navbar-default .navbar-brand {
-      margin-top: 1rem;
+      margin-top: .85rem;
     }
 
     .navbar-default .navbar-brand {
@@ -619,6 +619,10 @@ html, body {
         color: #e11948;
         font-size: 1rem;
         padding: 0;
+    }
+
+    .navbar-transparent .navbar-brand {
+      margin-top: .07rem;
     }
 
     /* Hero */
