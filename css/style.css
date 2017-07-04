@@ -261,8 +261,7 @@ html, body {
   transform: skewY(5deg);
   transform-origin: 100% 0;
   z-index: -1;
-  box-shadow: -2px -4px 5px 0 rgba(0, 0, 0, .35);
-  width: 110%;
+  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, .35);
 }
 
 .about-section:after {
@@ -413,7 +412,6 @@ html, body {
   transform-origin: 100% 0;
   z-index: -1;
   box-shadow: -2px -4px 5px 0 rgba(0, 0, 0, .35);
-  width: 110%;
 }
 
 .resume-section:after {
