@@ -261,7 +261,7 @@ html, body {
   transform: skewY(5deg);
   transform-origin: 100% 0;
   z-index: -1;
-  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, .35);
+  /*box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, .35);*/
 }
 
 .about-section:after {
@@ -276,7 +276,7 @@ html, body {
   transform: skewY(-5deg);
   transform-origin: 100%;
   z-index: -2;
-  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .35);
+  /*box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .35);*/
 }
 
 .about-container {
@@ -411,7 +411,7 @@ html, body {
   transform: skewY(3deg);
   transform-origin: 100% 0;
   z-index: -1;
-  box-shadow: -2px -4px 5px 0 rgba(0, 0, 0, .35);
+  /*box-shadow: -2px -4px 5px 0 rgba(0, 0, 0, .35);*/
 }
 
 .resume-section:after {
@@ -426,7 +426,7 @@ html, body {
   transform: skewY(-3deg);
   transform-origin: 100%;
   z-index: -2;
-  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .35);
+  /*box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .35);*/
 }
 
 .resume-container {
@@ -607,6 +607,10 @@ html, body {
       font-size: 1.5rem;
     }
 
+    .navbar-toggle {
+      margin-right: 0;
+    }
+
     .navbar-default .navbar-brand {
       margin-top: .85rem;
     }
@@ -674,6 +678,18 @@ html, body {
       padding: 0;
     }
 
+    .projects-content-box {
+        text-align: center;
+        margin: 2rem auto 0 auto;
+        width: 100%;
+    }
+
+    .projects-content-box.middle {
+        text-align: center;
+        margin: 2rem auto 0 auto;
+        padding: 0;
+    }
+
     .project-title {
       font-size: 2.35rem;
     }
@@ -686,27 +702,15 @@ html, body {
       font-size: 1.75rem;
     }
 
+    .tech-used {
+      font-size: 1.25rem;
+    }
+
     .projects-row img {
-      width: 80%;
+      width: 60%;
       margin-left: auto;
       margin-right: auto;
       max-width: 300px;
-    }
-
-    .projects-content-box {
-        text-align: center;
-        margin: 2rem auto 0 auto;
-    }
-
-    .projects-content-box.middle {
-        text-align: center;
-        margin: 2rem auto 0 auto;
-        padding: 0;
-    }
-
-    .projects-heading {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
     }
 
     .project-buttons a {
