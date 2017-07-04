@@ -671,15 +671,17 @@ html, body {
       display: flex;
       flex-direction: column-reverse;;
       padding: 3rem 0 3rem 0;
-      margin: 0;
+      margin: 0 auto;
+      width: 90%;
     }
 
     .projects-row.middle {
       padding: 3rem 0 3rem 0;
       flex-direction: column;
-      width: 100%;
-      background-color: #f9f9f9;
-      margin: 0;
+      width: 90%;
+      margin: 0 auto;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
     }
 
     .projects-content-box {
