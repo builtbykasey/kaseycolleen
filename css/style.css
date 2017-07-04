@@ -810,6 +810,8 @@ html, body {
     .contact-row {
       flex-direction: column;
       padding: 3rem 0;
+      justify-content: center;
+      align-items: center;
     }
 
     .contact-row img {
