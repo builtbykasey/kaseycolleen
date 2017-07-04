@@ -736,7 +736,7 @@ html, body {
     .story-row {
       padding: 2rem 0 0 0;
       width: 90%;
-      font-size: 1.15rem;
+      font-size: 1.25rem;
       /*text-align: justify;*/
       letter-spacing: .5px;
       line-height: 2.1rem;
@@ -749,7 +749,7 @@ html, body {
     .about-row {
       width: 90%;
       margin: 0 auto;
-      font-size: 1.15rem;
+      font-size: 1.25rem;
       letter-spacing: .5px;
       line-height: 2.1rem;
     }
@@ -793,7 +793,7 @@ html, body {
     }
 
     .blog-content p, .blog-content blockquote {
-      font-size: 1.15rem;
+      font-size: 1.25rem;
       margin: 0;
       text-align: justify;
     }
