@@ -296,9 +296,6 @@ html, body {
     padding-top: 6rem;
 }
 
-.story-paragraph {
-}
-
 .about-row {
     text-align: left;
     width: 65%;
@@ -389,7 +386,6 @@ html, body {
   color: #000;
   font-size: 1.35rem;
   font-family: 'PT Serif', serif;
-  margin-bottom: 0;
   margin: 0 3rem;
 }
 
@@ -450,7 +446,6 @@ html, body {
 .resume-button a {
   color: #fff;
   font-size: 1.25rem;
-  /*margin-bottom: 1rem;*/
   padding: .75rem 2rem;
   background-color: #000;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .35);
@@ -491,7 +486,6 @@ html, body {
 
 .contact-text {
   display: flex;
-  /*align-items: center;*/
   flex-direction: column;
   justify-content: center;
   padding-left: 2rem;
@@ -510,17 +504,12 @@ html, body {
 }
 
 #contact .fa {
-  paddin÷g-top: 3rem;
+  padding-top: 3rem;
   padding-bottom: 1rem;
   padding-right: 1.5rem;
   font-size: 2.25rem;
   color: #000;
 }
-
-/*#contact a {
-  text-decoration: none;
-  color: #000;
-}*/
 
 #contact .fa:hover {
   color: #e11948;
@@ -588,8 +577,6 @@ html, body {
   font-size: 1.5rem;
   text-decoration: none;
   color: #fff;
-  /*opacity: .8;*/
-  /*line-height: 3;*/
   padding-right: .75rem;
   margin-top: 3rem;
 }
@@ -604,7 +591,6 @@ html, body {
   padding: .5rem 0 0 3rem;
   font-family: 'PT Serif', serif;
   font-size: .8rem;
-  /*text-align: right;*/
 }
 
 /* Mobile */
@@ -613,38 +599,41 @@ html, body {
 
     /* Nav */
 
+    .navbar {
+      padding: 0 1rem;
+    }
+
     .navbar-brand {
       font-size: 1.5rem;
     }
 
-    .navbar-default {
-      background-color: rgb(255,255,255);
+    .navbar-default .navbar-brand {
+      margin-top: 1rem;
     }
 
     .navbar-default .navbar-brand {
       font-size: 1.5rem;
     }
 
+    .navbar-default .fa-bars {
+        color: #e11948;
+        font-size: 1rem;
+        padding: 0;
+    }
+
     /* Hero */
 
-    /*.hero {
-        background-position: 60%;
-        background-attachment: scroll;
-        background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
-        background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
-        box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .35);
-    }*/
-
     .hero h1 {
-      font-size: 2.75rem;
+      font-size: 2.5rem;
       letter-spacing: 1px;
       width: 90%;
       margin-left: auto;
       margin-right: auto;
+      padding-top: 4rem;
     }
 
     .hero p {
-      font-size: 1.25rem;
+      font-size: 1.15rem;
       font-style: italic;
       font-weight: 600;
       letter-spacing: 1px;
@@ -656,7 +645,7 @@ html, body {
     /* Headings */
 
     .section-heading {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
 
     /* Projects */
@@ -665,12 +654,26 @@ html, body {
         padding: 6rem 0 0 0;
     }
 
+    .projects-wrapper {
+      margin-bottom: 3rem;
+    }
+
     .projects-row {
       display: flex;
       flex-direction: column;
-      /*align-items: center;*/
-      /*justify-content: center;*/
-      margin: 4rem 0;
+      margin: 2rem 0;
+    }
+
+    .project-title {
+      font-size: 2.25rem;
+    }
+
+    .projects-paragraph {
+      font-size: 1.15rem;
+    }
+
+    .tech-title {
+      font-size: 1.5rem;
     }
 
     .projects-row img {
@@ -716,30 +719,38 @@ html, body {
     }
 
     .about-container {
-        padding: 5rem 0;
+        padding: 4rem 0;
         box-shadow: none;
         width: 100%;
     }
 
     .story-row {
-      padding: 3rem 0 0 0;
-      /*text-align: justify;*/
+      padding: 2rem 0 0 0;
       width: 90%;
+      font-size: 1.15rem;
+      /*text-align: justify;*/
+      letter-spacing: .5px;
+      line-height: 2rem;
+    }
+
+    .story-paragraph {
+      margin-bottom: 2rem;
     }
 
     .about-row {
       width: 90%;
       margin: 0 auto;
-    }
-
-    .story-paragraph {
-      margin-bottom: 3rem;
+      font-size: 1.15rem;
+      letter-spacing: .5px;
+      line-height: 2rem;
     }
 
     .why-line {
       /*text-align: center;*/
       margin: 1rem 0;
       padding: 1rem 15px;
+      font-size: 2.15rem;
+
     }
 
     .about-paragraph {
@@ -747,19 +758,62 @@ html, body {
       padding: 1rem 15px;
     }
 
+    /* Blog */
+
+    .blog-section {
+      padding: 7rem 0;
+    }
+
+    .blog-row {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .blog-post {
+      margin-top: 3rem;
+    }
+
+    .post-title {
+      font-size: 1.5rem;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+
+    .blog-content {
+      width: 90%;
+    }
+
+    .blog-content p, .blog-content blockquote {
+      font-size: 1.15rem;
+      margin: 0;
+      text-align: justify;
+    }
+
+    /* Resume */
+
+    .resume-section {
+      padding: 2rem 0;
+    }
+
+    .resume-text {
+      font-size: 2.25rem;
+      text-align: center;
+      width: 90%;
+    }
+
     /* Contact */
 
     .contact-section {
-      padding: 5rem 0;
+      padding: 5rem 0 2rem 0;
     }
 
     .contact-row {
       flex-direction: column;
-      padding: 4rem 0;
+      padding: 3rem 0;
     }
 
     .contact-row img {
-      height: 175px;
+      height: 125px;
     }
 
     .headshot {
@@ -771,8 +825,14 @@ html, body {
       padding: 0;
     }
 
-    .resume {
-      padding: 0;
+    .learn-more {
+      font-size: 2rem;
+    }
+
+    #contact .fa {
+      padding: 0 .75rem;
+      font-size: 2rem;
+      color: #000;
     }
 
     /* Footer */
@@ -785,12 +845,29 @@ html, body {
         width: 100%;
     }
 
+    .footer-logo {
+      font-size: 2rem;
+      padding: 0;
+    }
+
     .footer-nav {
       text-align: center;
       width: 100%;
       margin: 1rem 0;
-      font-size: .5rem;
+      /*font-size: .5rem;*/
+      padding: 0;
+      letter-spacing: 1px;
     }
+
+    .footer-nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      line-height: 1.65;
+      font-size: .75rem;
+      text-transform: uppercase;
+      padding-right: .75rem;
+    }
+
 
     .footer-nav ul li a:hover {
       color: #fff;

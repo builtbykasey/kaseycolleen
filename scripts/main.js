@@ -34,18 +34,20 @@ $(function () {
 	$.get('https://api.rss2json.com/v1/api.json', data, function (response) {
 		if (response.status == 'ok') {
 			var output = '';
+      var posts = $.map(response.items, function(post, i) {
+        var postCategories = response.items[i].categories
+        if(postCategories.length !== 0 ) {
+          return post;
+        }
+      });
 
-			$.each(response.items, function (k, item) {
+			$.each(posts, function (k, item) {
 				var visibleSm;
-				if(k < 6){
+				if(k < 4){
 					visibleSm = '';
 				 } else {
 					 visibleSm = ' visible-sm';
 				 }
-        var postCategories = item.categories
-        if(postCategories.length === 0 || postCategories === null || postCategories === undefined) {
-          // skip responses, i.e. posts that have no categories
-        } else {
           output += '<div class="row blog-row' + visibleSm + '">';
   				output += '<div class="blog-post">';
           output += '<div class="blog-content"><div class="post-title"><a href="'+ item.link + '" target="_blank">' + item.title + '</a></div>';
@@ -55,8 +57,7 @@ $(function () {
   				trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
   				output += '<p>' + trimmedString + '...</p>';
   				output += '</div></div></div>';
-  				return k < 6;
-        }
+  				return k < 4;
 			});
 			$content.html(output);
 		}
