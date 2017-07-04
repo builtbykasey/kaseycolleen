@@ -793,25 +793,27 @@ html, body {
     }
 
     .blog-post {
-      padding: 5rem 0 0 0;
+      padding: 3rem 0 0 0;
       /*border-bottom: 1px solid gray;*/
       margin: 0 auto;
-      width: 90%;
+      /*width: 90%;*/
     }
 
     .post-title {
       font-size: 1.5rem;
       text-align: center;
       letter-spacing: 1px;
+      text-align: left;
+      padding-bottom: .5rem;
     }
 
     .blog-content {
-      width: 90%;
+      width: 80%;
     }
 
     .blog-content p, .blog-content blockquote {
       font-size: 1rem;
-      margin: 0;
+      margin: 0 auto;
       text-align: justify;
     }
 
