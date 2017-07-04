@@ -63,7 +63,6 @@ html, body {
   letter-spacing: 3px;
   padding: .25rem 0 0 0;
   margin-left: 2rem;
-
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -918,38 +917,58 @@ html, body {
 
   /* Nav */
 
-  .navbar-brand {
-    font-size: 1.5rem;
+  .navbar {
+    padding: 0 1rem;
   }
 
-  .navbar-default {
-    background-color: rgb(255,255,255);
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .navbar-default .navbar-brand {
+    margin-top: .85rem;
   }
 
   .navbar-default .navbar-brand {
     font-size: 1.5rem;
   }
 
+  .navbar-default .navbar-nav > li > a {
+    font-size: .8rem;
+    letter-spacing: 2px;
+    padding: 1rem 0 0 0;
+    margin-left: 1rem;
+  }
+
+  .navbar-transparent .navbar-brand {
+    margin-top: .07rem;
+  }
+
+  .navbar-transparent .fa-bars {
+      color: #fff;
+      font-size: 1.25rem;
+  }
+
+  .navbar-transparent .navbar-nav > li > a {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+    padding-top: 1.2rem;
+  }
+
   /* Hero */
 
-  /*.hero {
-      background-position: 60%;
-      background-attachment: scroll;
-      background-image: -webkit-linear-gradient(270deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
-      background-image: linear-gradient(180deg, rgba(1, 95, 163, .6), rgba(1, 95, 163, .6)), linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../assets/hero2.jpg');
-      box-shadow: 0 4px 0px 0 rgba(0, 0, 0, .35);
-  }*/
-
   .hero h1 {
-    font-size: 2.75rem;
+    font-size: 3.5rem;
     letter-spacing: 1px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 4rem;
   }
 
   .hero p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-style: italic;
     font-weight: 600;
     letter-spacing: 1px;
@@ -970,40 +989,65 @@ html, body {
       padding: 6rem 0 0 0;
   }
 
-  .projects-row {
-    display: flex;
-    flex-direction: column;
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    margin: 4rem 0;
+  .projects-wrapper {
+    margin-bottom: 3rem;
+    padding: 0;
   }
 
-  .projects-row img {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  .projects-row {
+    display: flex;
+    flex-direction: column-reverse;;
+    padding: 3rem 0 3rem 0;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .projects-row.middle {
+    padding: 3rem 0 3rem 0;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
   }
 
   .projects-content-box {
       text-align: center;
-      margin: 0 auto;
+      margin: 2rem auto 0 auto;
+      width: 100%;
   }
 
   .projects-content-box.middle {
       text-align: center;
-      margin: 0 auto;
+      margin: 2rem auto 0 auto;
       padding: 0;
   }
 
-  .projects-row.middle {
-    flex-direction: column-reverse;
-    margin: 0;
-    padding: 0;
+  .project-title {
+    font-size: 2.5rem;
   }
 
-  .projects-heading {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  .projects-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .tech-title {
+    font-size: 2rem;
+  }
+
+  .tech-used {
+    font-size: 1.5rem;
+  }
+
+  .projects-row img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+  }
+
+  .project-buttons {
+    margin: 2rem 0 1rem 0;
   }
 
   .project-buttons a {
@@ -1011,7 +1055,7 @@ html, body {
   }
 
   .github-button {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   /* About */
@@ -1021,30 +1065,38 @@ html, body {
   }
 
   .about-container {
-      padding: 5rem 0;
+      padding: 4rem 0;
       box-shadow: none;
       width: 100%;
   }
 
   .story-row {
-    padding: 3rem 0 0 0;
+    padding: 2rem 0 0 0;
+    width: 90%;
+    font-size: 1.5rem;
     /*text-align: justify;*/
-    width: 90%;
-  }
-
-  .about-row {
-    width: 90%;
-    margin: 0 auto;
+    letter-spacing: .58px;
+    line-height: 2.4rem;
   }
 
   .story-paragraph {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .why-line {
     /*text-align: center;*/
     margin: 1rem 0;
     padding: 1rem 15px;
+    font-size: 2.75rem;
+
+  }
+
+  .about-row {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    letter-spacing: .58px;
+    line-height: 2.4rem;
   }
 
   .about-paragraph {
@@ -1052,19 +1104,68 @@ html, body {
     padding: 1rem 15px;
   }
 
+  /* Blog */
+
+  .blog-section {
+    padding: 7rem 0;
+  }
+
+  .blog-wrapper {
+    margin-top: 0;
+  }
+
+  .blog-row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .blog-post {
+    margin-top: 4rem;
+  }
+
+  .post-title {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .blog-content {
+    width: 90%;
+  }
+
+  .blog-content p, .blog-content blockquote {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: justify;
+  }
+
+  /* Resume */
+
+  .resume-section {
+    padding: 2rem 0;
+  }
+
+  .resume-text {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 90%;
+  }
+
   /* Contact */
 
   .contact-section {
-    padding: 5rem 0;
+    padding: 5rem 0 2rem 0;
   }
 
   .contact-row {
     flex-direction: column;
-    padding: 4rem 0;
+    padding: 5rem 0;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-row img {
-    height: 175px;
+    height: 150px;
   }
 
   .headshot {
@@ -1076,8 +1177,14 @@ html, body {
     padding: 0;
   }
 
-  .resume {
-    padding: 0;
+  .learn-more {
+    font-size: 2.5rem;
+  }
+
+  #contact .fa {
+    padding: 0 .75rem;
+    font-size: 2.25rem;
+    color: #000;
   }
 
   /* Footer */
@@ -1090,12 +1197,29 @@ html, body {
       width: 100%;
   }
 
+  .footer-logo {
+    font-size: 2rem;
+    padding: 0;
+  }
+
   .footer-nav {
     text-align: center;
     width: 100%;
     margin: 1rem 0;
-    font-size: .5rem;
+    /*font-size: .5rem;*/
+    padding: 0;
+    letter-spacing: 1px;
   }
+
+  .footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.65;
+    font-size: .75rem;
+    text-transform: uppercase;
+    padding-right: .75rem;
+  }
+
 
   .footer-nav ul li a:hover {
     color: #fff;
