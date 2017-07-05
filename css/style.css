@@ -400,7 +400,7 @@ html, body {
   top: 0;
   content: '';
   display: block;
-  height: 20%;
+  height: 50%;
   left: 0;
   position: absolute;
   right: 0;
@@ -416,7 +416,7 @@ html, body {
   bottom: 0;
   content: '';
   display: block;
-  height: 20%;
+  height: 50%;
   left: 0;
   position: absolute;
   right: 0;
