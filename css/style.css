@@ -392,12 +392,12 @@ html, body {
 }
 
 .blog-more a {
-  color: #e11948;
+  color: #000;
   text-decoration: none;
 }
 
 .blog-more a:hover {
-  color: #000;
+  color: #e11948;
 }
 
 /* Resume */
