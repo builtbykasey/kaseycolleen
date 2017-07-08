@@ -46,7 +46,7 @@ html, body {
 }
 
 .navbar-default .navbar-brand {
-  color: #e11948;
+  color: #CE0E3B;
   font-size: 2rem;
   padding: 0 0 .5rem 0;
   margin: 0;
@@ -57,7 +57,7 @@ html, body {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #e11948;
+  color: #CE0E3B;
   font-size: 1rem;
   letter-spacing: 3px;
   padding: .25rem 0 0 0;
@@ -105,27 +105,31 @@ html, body {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /*justify-content: center;*/
   height: 100vh;
   padding: 0;
-  text-align: center;
-  background: #CE0634;
-  }
+  background: #CE0E3B;
+}
+
+.hero-text {
+  width: 50%;
+}
 
 .hero h1 {
-  color: #000;
+  color: #fff;
   font-size: 5rem;
   font-weight: bold;
-  padding-top: 8rem;
+  /*padding-top: 8rem;*/
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  letter-spacing: 6px;
+  letter-spacing: 8px;
+  text-align: right;
 }
 
 .hero p {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 2px;
-  width: 70%;
+  width: 80%;
   margin: 1.5rem auto;
   font-family: 'PT Serif', serif;
 }
@@ -172,7 +176,7 @@ html, body {
 
 .project-title {
   display: block;
-  color: #e11948;
+  color: #CE0E3B;
   font-size: 3rem;
   line-height: 40px;
   letter-spacing: 3px;
@@ -216,7 +220,7 @@ html, body {
 .project-buttons a:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #e11948;
+  background-color: #CE0E3B;
 }
 
 .github-button {
@@ -371,7 +375,7 @@ html, body {
 }
 
 .post-title a {
-  color: #e11948;
+  color: #CE0E3B;
 }
 
 .blog-content a:hover {
@@ -397,7 +401,7 @@ html, body {
 }
 
 .blog-more a:hover {
-  color: #e11948;
+  color: #CE0E3B;
 }
 
 /* Resume */
@@ -470,7 +474,7 @@ html, body {
 .resume-button a:hover {
   text-decoration: none;
   color: #fff;
-  background-color: #e11948;
+  background-color: #CE0E3B;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .35);
   -webkit-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .35);
   -moz-box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .35);
@@ -513,7 +517,7 @@ html, body {
 .learn-more {
   font-size: 3rem;
   padding-bottom: .5rem;
-  color: #e11948;
+  color: #CE0E3B;
   letter-spacing: 2px;
 }
 
@@ -531,7 +535,7 @@ html, body {
 }
 
 #contact .fa:hover {
-  color: #e11948;
+  color: #CE0E3B;
 }
 
 /* Footer */
@@ -582,7 +586,7 @@ html, body {
 }
 
 .footer-nav ul li a:hover {
-  color: #e11948;
+  color: #CE0E3B;
 }
 
 #social {
@@ -600,7 +604,7 @@ html, body {
 }
 
 #social a:hover {
-  color: #e11948;
+  color: #CE0E3B;
 }
 
 .copyright {
@@ -636,7 +640,7 @@ html, body {
     }
 
     .navbar-default .fa-bars {
-        color: #e11948;
+        color: #CE0E3B;
         font-size: 1rem;
         padding: 0;
     }
