@@ -14,7 +14,7 @@ html, body {
   padding-bottom: 0;
   height: auto;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2.75rem;
   letter-spacing: 3px;
 }
 
@@ -86,7 +86,7 @@ html, body {
 
 .navbar-transparent .navbar-nav > li > a {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   letter-spacing: 3px;
   margin-left: 2rem;
   padding-left: 0;
