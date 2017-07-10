@@ -6,7 +6,7 @@ html, body {
 /* Navbar */
 .navbar {
   margin-top: 0;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .navbar-brand {
@@ -87,8 +87,8 @@ html, body {
 .navbar-transparent .navbar-nav > li > a {
   color: #fff;
   font-size: 1.25rem;
-  letter-spacing: 3px;
-  margin-left: 2rem;
+  letter-spacing: 2px;
+  margin-left: 1.5rem;
   padding-left: 0;
   padding-right: 0;
   padding-top: 1rem;
@@ -961,9 +961,9 @@ html, body {
   }
 
   .navbar-transparent .navbar-nav > li > a {
-    font-size: 1rem;
+    font-size: .9rem;
     letter-spacing: 2px;
-    margin-left: 1.75rem;
+    margin-left: 1.25rem;
     padding-top: 1.2rem;
   }
 
