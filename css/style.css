@@ -113,23 +113,8 @@ html, body {
 
 .hero-full-stack {
   display: flex;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: .5s;
-}
-
-.full {
-  -webkit-animation-duration: .6s;
-  /*-webkit-animation-delay: .5s;*/
-}
-
-.stack {
-  -webkit-animation-duration: .6s;
-  -webkit-animation-delay: .5s;
-}
-
-.developer {
-  -webkit-animation-duration: .6s;
-  -webkit-animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: .5s;
 }
 
 .hero h1 {
@@ -145,14 +130,8 @@ html, body {
 
 .hero-skills {
   text-align: center;
-  /*padding-left: 8rem;*/
   padding: 2rem;
   display: flex;
-  /*background: #fff;*/
-  /*margin-top: 2rem;*/
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
-  /*-webkit-animation-iteration-count: infinite;*/
 }
 
 .hero-skills img {
@@ -160,42 +139,34 @@ html, body {
   margin: 0 1.5rem;
 }
 
-/*.hero-skills p {
-  font-size: 3rem;
-  margin: 0;
-  line-height: 1;
-  color: #fff;
-  font-family: 'Georgia', serif;
-}*/
-
 .html {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.2s;
+  animation-duration: 1s;
+  animation-delay: 2.2s;
 }
 
 .css {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.6s;
+  animation-duration: 1s;
+  animation-delay: 2.6s;
 }
 
 .javascript {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3s;
+  animation-duration: 1s;
+  animation-delay: 3s;
 }
 
 .angular {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3.4s;
+  animation-duration: 1s;
+  animation-delay: 3.4s;
 }
 
 .ruby {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3.8s;
+  animation-duration: 1s;
+  animation-delay: 3.8s;
 }
 
 .rails {
-  -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 4.2s;
+  animation-duration: 1s;
+  animation-delay: 4.2s;
 }
 
 
