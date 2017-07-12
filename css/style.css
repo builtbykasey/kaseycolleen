@@ -52,6 +52,10 @@ html, body {
   margin: 0;
 }
 
+.navbar-default .navbar-brand:focus {
+  color: #CE0E3B;
+}
+
 .navbar-default .navbar-brand:hover {
   color: #000;
 }
@@ -64,7 +68,11 @@ html, body {
   margin-left: 2rem;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:focus {
+  color: #CE0E3B;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
   color: #000;
 }
 
@@ -73,6 +81,10 @@ html, body {
   background-color: transparent;
   border: none;
   padding-top: 1.5rem;
+}
+
+.navbar-transparent .navbar-brand:focus {
+  color: #fff;
 }
 
 .navbar-transparent .navbar-brand:hover {
@@ -95,7 +107,12 @@ html, body {
   text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
-.navbar-transparent .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.navbar-transparent .navbar-nav > li > a:focus, .navbar-transparent .navbar-nav > li > a:active {
+  color: #fff;
+  background: transparent;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover {
     color: #000;
     background: transparent;
 }

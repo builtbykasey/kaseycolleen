@@ -1,3 +1,45 @@
+$("#home-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#home").offset().top
+    }, 1200);
+    return false;
+});
+
+$("#projects-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#projects").offset().top
+    }, 1200);
+    return false;
+});
+
+$("#about-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 1200);
+    return false;
+});
+
+$("#blog-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#blog").offset().top
+    }, 1200);
+    return false;
+});
+
+$("#resume-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#resume").offset().top
+    }, 1200);
+    return false;
+});
+
+$("#contact-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1200);
+    return false;
+});
+
 // If user scrolls, change transparent menus to default menus
 var $document = $(document),
     $element = $('.navbar'),
