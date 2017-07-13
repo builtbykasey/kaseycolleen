@@ -345,7 +345,7 @@ html, body {
     text-align: left;
     margin: 0 auto;
     font-size: 1.35rem;
-    font-family: 'PT Serif', serif;
+    font-family: 'Georgia', serif;
     letter-spacing: .58px;
     line-height: 2.6rem;
     padding-top: 6rem;
@@ -356,7 +356,7 @@ html, body {
     width: 65%;
     margin: 0 auto;
     font-size: 1.35rem;
-    font-family: 'PT Serif', serif;
+    font-family: 'Georgia', serif;
     letter-spacing: .58px;
     line-height: 2.6rem;
 }
@@ -405,12 +405,31 @@ html, body {
   margin-top: 2rem;
 }
 
+.blog-featured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.blog-featured h2 {
+  padding-right: 1rem;
+  margin: 0;
+  color: #CE0E3B;
+  letter-spacing: 2px;
+}
+
+.blog-featured img {
+  height: 50px;
+  padding: 0 1rem;
+}
+
 .blog-row a {
   text-decoration: none;
 }
 
 .blog-post {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .blog-content {
@@ -428,17 +447,17 @@ html, body {
 }
 
 .post-title a {
-  color: #CE0E3B;
+  color: #000;
 }
 
 .blog-content a:hover {
-  color: #000;
+  color: #CE0E3B;
 }
 
 .blog-content p, .blog-content blockquote {
   color: #000;
   font-size: 1.35rem;
-  font-family: 'PT Serif', serif;
+  font-family: 'Georgia', serif;
   margin: 0 3rem;
 }
 
@@ -449,12 +468,12 @@ html, body {
 }
 
 .blog-more a {
-  color: #000;
+  color: #CE0E3B;
   text-decoration: none;
 }
 
 .blog-more a:hover {
-  color: #CE0E3B;
+  color: #000;
 }
 
 /* Resume */
@@ -663,7 +682,7 @@ html, body {
 .copyright {
   color: #a7a7a7;
   padding: .5rem 0 0 3rem;
-  font-family: 'PT Serif', serif;
+  font-family: 'Georgia', serif;
   font-size: .8rem;
 }
 
