@@ -71,7 +71,7 @@ $document.ready(function() {
 $(function () {
 	var $content = $('#jsonContent');
 	var data = {
-		rss_url: 'https://medium.com/feed/@kaseycolleen'
+		rss_url: 'https://medium.com/feed/@kaseymarkham'
 	};
 	$.get('https://api.rss2json.com/v1/api.json', data, function (response) {
 		if (response.status == 'ok') {
