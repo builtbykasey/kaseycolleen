@@ -71,7 +71,7 @@ $document.ready(function() {
 $(function () {
 	var $content = $('#jsonContent');
 	var data = {
-		rss_url: 'https://medium.com/feed/@kaseymarkham'
+		rss_url: 'https://medium.com/feed/@builtbykasey'
 	};
 	$.get('https://api.rss2json.com/v1/api.json', data, function (response) {
 		if (response.status == 'ok') {
