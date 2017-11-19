@@ -681,7 +681,7 @@ html, body {
 
 .copyright {
   color: gray;
-  padding: .5rem 0 0 3rem;
+  padding: .5rem 2rem 0 0;
   font-family: 'Georgia', serif;
   font-size: .8rem;
   text-align: right;
