@@ -2,8 +2,6 @@
 
 ### Custom Full Stack Developer Portfolio
 
-[Live Site](http://www.kaseycolleen.com/)
-
 ## Project Objectives
 
 - Visitors can learn about my experience
